@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<title>第二届 “我最喜爱的老师” 投票揭晓</title>
+		<link href="./FavorTeacherVote2/style.css" rel="stylesheet" type="text/css" media="all">	
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="./FavorTeacherVote2/responsiveslides.css">
+		<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="./FavorTeacherVote2/cnss.js"></script>
+		
+		<!-- 		
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+██████████████████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████
+█████████████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████
+███████████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████████████████████████████████████████████████████████
+█████████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████████████████████████████████████████████
+███████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████████████████████████████████████████████████████████
+██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████████████████
+█████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████████████████
+████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████████████████████████████████████████████████
+████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████████████████████████████████████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██████████████████████████████████████████████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████████████░░████████████████████████████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███████▓▓▓████░░░░█████████░░░░░░░░░░░░░████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▓▓▓▓▓▓████▒▒▒▒░░███░░░░▒▒░░░░░░░░░░░░░░█████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▒▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░███████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░██████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░█████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░████████████
+████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░███████████
+████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░██████████
+█████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░██████████
+█████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░█████████
+█████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▒▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████████▒░░█████████
+██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████████████░░░████████
+██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██████████████░░████████
+██████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▒▒▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██████████████▒████████
+█████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▒▒▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░██████████████████████
+███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▒▒▓▓▓▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒████████████████████
+██████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▒▒▓▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒████████████████████
+██████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▒▒▒▒▒▓▓▓▓▒▒▒▓▓▓▓▓██████████████████████████████
+████████  ███████████████████████████████████████████████████▓▓████▓██████████            ██████████████████
+████████ ░░██████████████████   ░                           █                            ███████████████████
+█████████ ░░█████████████████░ ░  ░░░░░░░░░░░░░░░░░░░░░░░░ ░█                 ░░░░░░ ░░█████████████████████
+██████████░░ ░█████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░█  ░░░░░░░░░░░░░░░░░░░░░░░██████████████████████
+███████████░░░░ █████████████████░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒░▒░░░░░░░░█  ░░░░░░░░░░░░░░░░░░░░░████████████████████████
+████████████░░ ░░ ████████████████▒░░▒▒▒▒▒▒▒▒▒░▒░░░░░░░░░░░░█  ░░░░░░░░░░░░░░░░░░░░░░███████████████████████
+█████████████░░░░░░    ███████  ░░░▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░░░░░░░███████████████████████
+███████████████░░░░░░░░░     ░░░░░░▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░█ ░░░░░░░░░░░░░░░░░░░░░░ ███████████████████████
+████████████████░░░░▒░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░█░░░░░░░░░░░░░░░░░░▒▒▒░░████████████████████████
+██████████████████░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░█░░░░░░░░░░░░░░▒▒▒▒▒▒▒░░████████████████████████
+████████████████████░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░░██░░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░████████████████████████
+██████████████████████░░░░░░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░░░░░██░░░░░▒░░▒▒▒▒▒▒▒▒▒▒▒░░█████████████████████████
+█████████████████████████░░░░▒░░░░░░░░▒░░░░░░░░░░░░░░░░░░░░░██░░▒▒░░░░░▒▒▒▒▒▒▒▒▒░▒██████████████████████████
+████████████████████████████ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ ██░░░░▒░░░░▒▒▒▒▒▒▒▒▒▒░██████████████████████████
+███████████████████████████████████░░░░░░░░░░░░ ██████░░░░░░██░░░░░███░░▒▒▒▒▒▒▒▒▒███████████████████████████
+█████████████████████████████████████████████████████████  ███░░▒█████░▒▒▒▒▒▒▒▒▒████████████████████████████
+██████████████████████████████████████████████████████████████████████░▒▒▒▒▒▒▒██████████████████████████████
+█████████████████████████████████████████████████████████████████████▒▒▒▒▒▒▒▒███████████████████████████████
+████████████████████████████████████████████████████████████████████░░░▒▒▒██████████████████████████████████
+████████████████████████████████████████████████████████████████ ░░░░░▒░████████████████████████████████████
+█████████████████████████████████████████████████████████████ ░░░░░░████████████████████████████████████████
+█████████████████████████████████████████████████████████████░  ████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████████
+████████████████████████████████████████████████████████████████████████████████████████████████████████qszy
+-->
+		<style>
+			.teaintroduce .well{
+				background-image: none;
+				height: 320px;
+				overflow-y: auto;;
+			}
+			.teaintroduce .well p {
+				font-family: Microsoft Yahei;
+				font-size: 13px;
+			}
+			.grid p {
+				font-family: KaiTi;
+			}
+			span.bold-span {
+				font-weight: bold;
+				/*font-style: italic;*/
+				font-size: 16px;
+				font-family: Microsoft Yahei;
+			}
+
+		</style>
+	</head>
+	<body>
+		<!--start-image-slider---->
+		<div class="image-slider">
+			<!-- Slideshow 1 -->
+		    <ul class="rslides rslides1" id="slider1" style="max-width: 2500px;">
+		      <li id="rslides1_s0" class="rslides1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;">
+		      	<img src="./FavorTeacherVote2/slider2.jpg" alt="">
+		      	<div class="slider-info">
+		      		<p style="color: #000000;">第二届 “我最喜爱的老师”</p>
+		      		<span style="color: #000000;font-size:3em;font-size:3em;">评选揭晓</span>
+		      	</div>
+		      </li>
+		    <!--   <li id="rslides1_s1" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img src="./FavorTeacherVote2/slider2.jpg" alt="">
+		      	<div class="slider-info">
+		      		<p style="color: #000000;">第二届 “我最喜爱的老师”</p>
+		      		<span style="color: #000000;font-size:3em;font-size:3em;">评选揭晓</span>
+		      	</div>
+		      </li>
+		      <li id="rslides1_s2" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; -webkit-transition: opacity 600ms ease-in-out; transition: opacity 600ms ease-in-out;"><img src="./FavorTeacherVote2/slider3.jpg" alt="">
+		      	<div class="slider-info">
+		      		<p style="color: #E82C74;">第二届 “我最喜爱的老师”</p>
+		      		<span style="color: #E82C74;font-size:3em;">评选揭晓</span>
+		      	</div>
+		      </li> -->
+		    </ul>
+			 <!-- Slideshow 2 -->
+		</div>
+		<!--End-image-slider---->
+		<!---start-content---->
+		<div class="col-md-10 col-md-offset-1">
+			<div class="well well-lg" style="margin-top:50px;">
+				<p style="font-size:20px;text-indent:2em;font-family:STXinwei,STKaiti,KaiTi;">“杏坛生辉，桃李满园。”12月11日晚，第二届“我最喜爱的老师”颁奖典礼在清水河校区成电会堂隆重举行，10位老师荣获“我最喜爱的老师”荣誉称号。</p>
+				<br />
+				<p style="font-size:20px;text-indent:2em;font-family:STXinwei,STKaiti,KaiTi;">“我最喜爱的老师”评选活动由校学生会、研究生会主办，是我校第一个面向全校师生公开票选优秀教师的活动，旨在进一步加强师德师风建设，增强同学们的尊师重道意识。本届“我最喜爱的老师”评选活动从今年6月10日启动，采用两轮网络投票和学生代表现场投票相结合的方式，先后共计5.7万人次参与投票，投票总计62万多次，做到了参与度强、受众面广、结果客观公正。</p>
+			</div>
+		</div>
+		<div class="content" style="clear:both;">
+			<div class="content-grids">
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/祝小宁.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>政治与公共管理学院教授、博导，国务院特殊津贴享受者，ICPA主席。讲授国家级精品课程《公共组织行为学》等和省级精品课程《公共管理学》，近年来主持了国家社科博士点基金项目、国家重点科技攻关96-750项目等6项国家级课题，先后荣获国家级教学优秀成果一等奖、中国改革实践与社会经济形势社科优秀成果奖已经省、校各种奖项达28项。曾带队参加全国大专辩论赛并获得全国冠军的好成绩。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">桃李争妍——祝小宁</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>留校为师三十载，宝剑刃利锋亦俏。纵横公管，严谨求实结下累累硕果；点兵辩论，激荡思维细润莘莘学子。再回首，三十载春秋，风雨兼程，你是学生眼中最可敬的人。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/苏元章.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>外国语学院讲师。讲授《硕士生英语阅读与翻译》。连续3年被评为研究生院教学质量优秀奖。课堂上的苏老师，口语出众，风度翩翩，讲授知识不拘泥于课本，英语课程紧跟时政，深受同学青睐。课下，苏老师与同学关系融洽，被称为高校男神老师，每学期他的课都会引发学生们的争相抢课。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">翩翩君子——苏元章</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>你说衣冠得体是对教师岗位的尊重，我说一座难求是对您无言的爱戴。授书不拘形式，教学源于生活。放眼寰宇，在时局的讨论与火热的思辨中，学业仿佛不再艰涩。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/李滚.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>航空航天学院副教授、中国天文学会和宇航学会会员。讲授《信号检测与估计》《航天器控制原理》《轨道力学与航天器控制》《航空航天概论》等本科和研究生课程。在国内外学术期刊上发表SCI/EI检索论文二十余篇；获陕西省科学技术二等奖一项；先后主持和参与国家863项目十余项；参与国家自然科学基金等科研项目多项。目前主要的研究方向为多源信息融合、组合导航、新型导航定位及精确制导技术、飞行器控制与仿真技术等。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">苍穹问鼎——李滚</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>授人以渔，缘起你让我初尝空天探索之美；妙语解颐，缘续你令我始悟吟诗点墨意涵。径地迈步踏石留印，揽天夺才抓铁有痕。英才望之俨然，君子即之也温。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/戴钢书.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>马克思主义教育学院教授、博导、四川省突出贡献专家、国家社科基金课题评委、教育部社科基金评委、人事部博士后基金评委、四川省哲学社会科学课题评审及成果评奖专家。主持国家社会科学基金重点项目等四项；主持教育部高校师生思想政治状况况调查精品项目17年；主持教育部项目五顶，重大招标项目子课题两项；主持中央文明委重大委托课题子课题一项；主持中国文联重大委托项目两项。曾获教育部优秀社科一等奖等三项；获四川省政府社科二等奖二项。获四川教学成果二等奖一项。在全国最先获得“理想”的脑功能定位成果。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">启智导师——戴钢书</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>青壮别母鹤楼东，携妻离乡远赴蓉。蜀道虽难，不阻英豪盖世；西南纵远，不碍才气勃发。学生的诗句是你最客观的评价，桃李的芬芳是你最精致的名片。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/陈瑜.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>电子工程学院高级工程师。从事电子技术应用实验、数学逻辑设计及应用、射频电子线路课程的教学工作。指导学生参加全国大学生电子设计竞赛,参与多项教学改革与教学研究项目,多个建设课程获国家级精品课程,撰写多本教材,发表多篇教学论文,先后获得了学校最受学生欢迎的基础课教师一等奖、托普教学一等奖、校青年教师教学优秀奖、校优秀主讲教师。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">春风化雨——陈瑜</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>细音如阳，温暖频射驱散严冬荒凉；温润如玉，震颤波幅调协韵律课堂。共振一幅成电波动，你用爱和奉献，解调出张张满意答卷。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/张鹰.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>微电子与固体电子学院教授。讲授《信号与系统》《数字逻辑与设计》等10余门本科研究生课程，承担信号与系统实验的实践性教学工作，担任《微电子器件》省级精品课程建设负责人。主持或参与4项省精品课程建设。主持或参与科研10余项，发表论文140余篇。先后荣获部级科技进步奖一、二、三等奖、国家“九五”重点攻关先进项目及先进个人称号、最受学生欢迎的基础课教师一等奖、校本科课堂教学竞赛 一等奖、校华腾国威奖教金三等奖、通过学校第14届“教学质量优秀”A级鉴定（2004）、校优秀共产党员 。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">慈言智叟——张鹰</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>电音太过刺耳，所以你用裸嗓授课，汗透衬衫，你仍慈祥从容，你的坚守感化元件的冰凉。我们爱你，是全神贯注，我们爱你，是座无虚席。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/蒲和平.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>数学科学学院副教授。 国家级精品课程《线性代数与空间解析几何》和省级精品课程《微积分》的主研人，指导学生参加全国大学生数学竞赛取得了优异成绩；主持一项国家级教改项目，参加5项国家级、省部级教改项目；出版教学专著2部，参加5部教材与教学参考书的编写工作；先后荣获四川省教学成果一、二等奖，多次获得校优秀教学成果奖，曾被“搜狐教育网”、“评师网”联合列入“2010各专业最受欢迎十大教授榜”。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">丹心仁师——蒲和平</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>善目慈眉，唤醒思维的兆赫却遒劲力拔；理性睿智，指点深奥的迷津却温文尔雅。只有π的无穷尽能道出我们的祝福，经师易得，人师难求。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/刘智勇.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>政治与公共管理学院教授、中国行政管理学会会员、四川省行政学会会员、四川省“学术与技术带头人”后备人选。讲授《行政领导与决策》《中国行政史》《中外行政管理思想研究》《比较行政学》课程。主持国家社科基金项目 、省软科学项目等10余项，公开发表论文近30篇，其中发表在国家一级刊物和核心刊物文章18篇，出版个人专著2部，参与编写著作、教材5部。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">克明俊德——刘智勇</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>心无旁骛，热忱执着，探育才规律，他的敬业精神一丝不苟；朴实率真、淡泊名利、绘水墨人生，他的师者风范令人称赞；娓娓道来，深入浅出、讲浩瀚政管，他的课堂传递新知；潜心指导，助学荐才，搭全方位平台，他的课外扮演第二课堂。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/米汉.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>格拉斯哥学院高级讲师。讲授《Analogue Electronics》 《Microelectronic systems》课程，深受学生喜爱，她深入浅出的讲解使得晦涩难懂的知识变得容易理解，在课下也耐心为学生答疑解惑。她鼓励学生不要惧怕说英语，勇于表达自己的观点和问题，同时为学生的课程设计进行指导，启发学生思维，积极培养学生的国际化思维，受到了同学们的一致好评。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">暖阳信使——Kathleen Meehan</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>在大洲间奔波，你带来学子神往的景；在银杏下授业，你溅出知识绚烂的花。情染神州，缘系成电。文化桥梁架构师是你独特的桂冠。</p>
+					</div>                               
+				</div>
+				<div class="grid well">
+					<div class="gridup">
+						<div class="gridleft">
+							<img src="./FavorTeacherVote2/王转德.jpg" title="image-name">
+						</div>
+						<div class="gridright clearfix">
+							<div id="" class="teaintroduce">
+							<div class="well">
+								<p><span class="bold-span">人物介绍：</span>数学科学学院副教授。讲授《线性代数》《矩阵理论》《特殊矩阵分析与应用》等本科研究生课程。先后荣获校青年教师优秀奖、校研究生教学质量优秀奖和校教学成果二等奖。“教书育人，德育为先”是王转德老师的为师准则。不仅在课堂上展现着他的教学魅力，培养同学们对课程知识的学习兴趣；同时在课外耐心帮助同学们解决学习和生活上的疑惑，和学生们建立了深厚的友谊，深受同学们的喜爱。</p>
+							</div>
+						</div><!-- / -->
+					</div>
+					</div>
+					<div class="well" style="background-image:none;background-color:#fefefe;margin-bottom:0;height:215px;">
+						<span style="color: #38B2CF;font-size: 2em;">耕耘方台——王转德</span>
+						<br>
+						<p><span class="bold-span">颁奖词：</span>求实为教，你用矩阵作画；易近纳言，你拿微积写诗。授前人数字奥义，率后辈洞万物规理。硕果盈门，你是苍穹那颗亮眼的星。</p>
+					</div>                               
+				</div>
+			</div>	
+		<!---End-content---->
+		<div class="clear"> </div>
+		<!---start-footer---->
+		<div class="footer">
+			<div class="wrap">
+				<div class="footer-grids col-md-12">
+					<div class="footer-grid col-md-4 col-md-offset-2">
+						<h3>相关新闻</h3>
+						<ul>
+							<li><a href="http://www.new1.uestc.edu.cn/news/index/id/2904">第二届“我最喜爱的老师”评选启动</a></li>
+							<li><a href="http://www.new1.uestc.edu.cn/news/index/id/3853">第二届“我最喜爱的老师”评选活动候选...</a></li>
+	                        <li><a href="http://www.new1.uestc.edu.cn/news/index/id/4445">第二届“我最喜爱的老师”候选名单揭晓...</a></li>
+						</ul>
+					</div>
+					<div class="footer-grid1 footer-grid col-md-4">
+						<h3>电子科技大学</h3>
+						<ul id="sul">
+							<li><a href="www.uestc.edu.cn">官方网站：www.uestc.edu.cn</a></li>
+							<li><a href="http://weibo.com/u/3982954755">官方微博：http://weibo.com/u/3982954755</a></li>
+							<li><a href="http://www.uestc.edu.cn/?ch/112">官方微信：http://www.uestc.edu.cn/?ch/112</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---End-footer---->
+		<div class="copy-right">
+			<p>Copyright © 2014  <a href="https://cnssuestc.org/" title="">CNSS</a> All rights reserved.</p>
+		</div>
+</body>
+</html>
